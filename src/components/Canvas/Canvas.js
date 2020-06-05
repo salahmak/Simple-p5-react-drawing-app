@@ -26,7 +26,7 @@ class Canvas extends Component {
         let currentPath = [];
         let isDrawing = false; */
 
-
+p.p5.disableFriendlyErrors = true;
 
         p.setup = () => {
             p.canvas = p.createCanvas(this.width, this.height);
