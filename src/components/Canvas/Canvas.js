@@ -30,6 +30,7 @@ p5.disableFriendlyErrors = true;
 
         p.setup = () => {
             p.canvas = p.createCanvas(this.width, this.height);
+            p.frameRate(25)
             p.canvas.mousePressed(startPath);
             p.canvas.mouseReleased(endPath);
         }
